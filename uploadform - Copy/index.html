@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+
+	<meta charset="utf-8">
+	
+
+	<title>Demo of Shape-IT -by Bahati Boniface</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/style.css" media="screen">
+
+	<!-- Scripts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/plupload.full.js"></script>
+	<script src="js/jquery-progressbar.min.js"></script>
+	<script src="js/three.min.js"></script>
+  <script src="js/STLLoader.js"></script>
+  <script src="js/TrackballControls.js"></script>
+	
+
+	<!-- Preview Styles -->
+	<style type="text/css">
+		html, body { margin: 0;	padding: 0; }
+		body { background: #f2f2f2 url(img/ba.jpg) no-repeat top center; padding-top: 265px; }
+		#uploader { margin: 0 auto; }
+		.info { text-align: center; padding: 50px 0; color: #666; font-family: Helvetica, Arial, sans-serif; }
+		#runtime { text-transform: uppercase; }
+		.info span { color: #81c468; }
+	</style>
+<meta name="robots" content="noindex,follow" />
+</head>
+<body>
+ <input type="file" id="button">
+  <div id="viewer"></div>
+  <script src="js/viewer.js"></script>
+
+<div class="info">Max File Size <span>64Mb</span> | Only <span>STl And OBJ</span> Allowed | Using <span id="runtime"></span></div>
+
+</body>
+
+</html>
